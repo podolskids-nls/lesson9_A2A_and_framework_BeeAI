@@ -3,3 +3,4 @@ calendar.json
 __pycache__/
 *.pyc
 .venv/
+.specstory/
