@@ -1,0 +1,6 @@
+---
+description: Не читать секреты из .env
+alwaysApply: true
+---
+
+Никогда читать файл `.env`. Ключи только через python-dotenv в runtime.

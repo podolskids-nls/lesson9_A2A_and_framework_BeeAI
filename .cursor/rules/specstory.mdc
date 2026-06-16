@@ -1,0 +1,30 @@
+---
+description: SpecStory — чаты сохраняются в папке проекта
+alwaysApply: true
+---
+
+# SpecStory: история чатов в проекте
+
+Все AI-чаты этого проекта автоматически сохраняются в `.specstory/history/` внутри папки проекта.
+
+## Где лежат чаты
+
+```
+Lesson_9_Agent2Agent (A2A)/
+└── .specstory/
+    └── history/
+        └── 2026-06-16_название-чата.md
+```
+
+## Ручное сохранение
+
+Если чат не появился — запусти вручную:
+`Ctrl+Shift+P` → `SpecStory: Save AI Chat History`
+
+## Настройка (settings.json)
+
+```json
+"specstory.autoSave.enabled": true
+```
+
+Уже включено глобально. Работает автоматически при наличии открытого проекта.
